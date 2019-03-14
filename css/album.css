@@ -1,0 +1,30 @@
+
+.album {
+    margin: 100px;
+    width: 25%;
+    border: 1px solid #ccc;
+    position: relative;
+    margin: auto;
+    margin-bottom:10px; 
+}
+.album:hover {
+    border: 1px solid #777;
+}
+  
+.album img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+@media only screen and (max-width:1100px) {
+	/* For mobile phones: */
+    .album{
+        width: 100%;
+        margin:0 auto;
+    }
+}
